@@ -13,6 +13,9 @@
 		1094E7DE265E8DE00098BE84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1094E7DD265E8DE00098BE84 /* Preview Assets.xcassets */; };
 		1094E7E9265E8DE10098BE84 /* TestSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1094E7E8265E8DE10098BE84 /* TestSwiftUITests.swift */; };
 		1094E7F4265E8DE10098BE84 /* TestSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1094E7F3265E8DE10098BE84 /* TestSwiftUIUITests.swift */; };
+		1094E802265E95AA0098BE84 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1094E801265E95AA0098BE84 /* UIFont+Extension.swift */; };
+		1094E804265F05030098BE84 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1094E803265F05030098BE84 /* CircleImage.swift */; };
+		1094E806265F0A470098BE84 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1094E805265F0A470098BE84 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		1094E7EF265E8DE10098BE84 /* TestSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1094E7F3265E8DE10098BE84 /* TestSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSwiftUIUITests.swift; sourceTree = "<group>"; };
 		1094E7F5265E8DE10098BE84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1094E801265E95AA0098BE84 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		1094E803265F05030098BE84 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		1094E805265F0A470098BE84 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				1094E7DA265E8DE00098BE84 /* Assets.xcassets */,
 				1094E7DF265E8DE00098BE84 /* Info.plist */,
 				1094E7DC265E8DE00098BE84 /* Preview Content */,
+				1094E801265E95AA0098BE84 /* UIFont+Extension.swift */,
+				1094E803265F05030098BE84 /* CircleImage.swift */,
+				1094E805265F0A470098BE84 /* MapView.swift */,
 			);
 			path = TestSwiftUI;
 			sourceTree = "<group>";
@@ -259,6 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1094E802265E95AA0098BE84 /* UIFont+Extension.swift in Sources */,
+				1094E804265F05030098BE84 /* CircleImage.swift in Sources */,
+				1094E806265F0A470098BE84 /* MapView.swift in Sources */,
 				1094E7D9265E8DDE0098BE84 /* ContentView.swift in Sources */,
 				1094E7D7265E8DDE0098BE84 /* TestSwiftUIApp.swift in Sources */,
 			);
